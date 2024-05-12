@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
+}
+body{
     background-color: #f3f5f8;
 }
 .full {
@@ -254,6 +256,12 @@ button:hover {
     padding-left: 80px;
   
    }
-   .skill{
+ .skill{
     height: 100vh;
    }
+  .cdk{
+    height: 200px;
+  }
+  .bck{
+    height: 200px;
+  }
