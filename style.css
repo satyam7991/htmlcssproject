@@ -6,6 +6,7 @@
 }
 body{
     background-color: #f3f5f8;
+    /* font-size: small; */
 }
 .full {
     width: 100%;
@@ -96,13 +97,13 @@ b {
 
 h1 {
     display: block;
-    font-size: 5em;
+    font-size: 3em;
     font-weight: 900;
     color: #900C3F;
 }
 .ram {
     color: #900C3F;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 p {
     display: block;
@@ -139,10 +140,15 @@ button:hover {
     color: white;
 }
 .shivam img {
+    height: 100%;
+    width: 100%;
+   border-radius: 200px;
+    margin-left: 35%;
+} 
+.shivam{
     height: 500px;
     width: 400px;
-    border-radius: 200px;
-    margin-left: 35%;
+    object-fit: contain;
 }
 .z {
 
@@ -264,4 +270,10 @@ button:hover {
   }
   .bck{
     height: 200px;
+  }
+  .project{
+    padding-top: 100px;
+  }
+  .heading{
+    text-align: center;
   }
