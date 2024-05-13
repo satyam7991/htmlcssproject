@@ -4,9 +4,11 @@
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
+
 body{
     background-color: #f3f5f8;
-    
+
+
     }
 
 .full {
@@ -16,6 +18,7 @@ body{
     top:0px;
     
 }
+
 nav {
     display: flex;
     width: 100%;
@@ -38,17 +41,21 @@ nav {
     letter-spacing: 3px;
     text-transform: uppercase;
 }
+
 b {
     font-size: 70px;
     color: #900C3F; 
 }
+
 .navbar {
     display: flex; 
 }
+
 .navbar li {
     list-style: none;
     margin: 0 15px;
 }
+
 .navbar li a {
     font-size: 25px;
     color: #900C3F;
@@ -57,20 +64,24 @@ b {
     text-decoration: none;
     text-transform: capitalize;
 }
+
 .j:hover{
     background-color: #900C3F;
     border-radius: 25px;
     padding: 10px;
     color: white;
 }
+
 .yam a:hover {
     color: #7f00ff;
 }
+
 .yam a {
     font-size: 30px;
     color: #900C3F;
     margin: 25px 10px;
 }
+
 .shiv {
     display: flex;
     top:10px;
@@ -82,12 +93,15 @@ b {
     padding: 0 10%;
     overflow: hidden;
 }
+
 .ak {
     width: 50%;
 }
+
 .bk{
     z-index: 1;
 }
+
 .mahadev {
     display: block;
     position: relative;
@@ -99,35 +113,43 @@ b {
 h1 {
     display: block;
     font-size: 3em;
-    font-weight: 800;
+    font-weight: 900;
     color: #900C3F;
 }
+
 .ram {
     color: #900C3F;
-    /* text-transform: capitalize; */
 }
+
 p {
     display: block;
     width: 90%;
     font-size: 1.2em;
     color: #900C3F;
 }
+
 .hanuman {
     width: 100%;
     position: relative;
     left: 150px;
 }
+
 .hanuman a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(24, 1, 6);
 }
+.hanuman a:hover{
+  color: white;
+}
+
+
 button {
     outline: none;
     border: none;
     cursor: pointer;
     font-size: 25px;
     font-weight: 400;
-    color: #fff;
+    color: rgb(24, 1, 6);
     background-color: #900C3F;
     padding: 8px 14px;
     margin: 40px 5px;
@@ -136,21 +158,25 @@ button {
     box-shadow: 0 15px 10px rgba(0, 0, 0, 0.59);
     border-radius: 10px;
 }
+
 button:hover {
     background-color: #32012F;
     color: white;
 }
+
 .shivam img {
     height: 100%;
     width: 100%;
    border-radius: 200px;
     margin-left: 35%;
 } 
+
 .shivam{
     height: 500px;
     width: 400px;
     object-fit: contain;
 }
+
 .z {
 
     position: absolute;
@@ -165,28 +191,32 @@ button:hover {
    
 
 }
+
 .x {
     left: 10px;
 }
+
 .k img {
     width: 30vw;
     transform: scaleX(-1);
     border-radius: 50%;
 
 }
+
 .m {
     padding-top: 100px;
     margin-left: 120px;
 }
+
 .y{ 
     justify-content: center;
         margin-top: 50px;
         text-align: center;
         display: flex;
         gap: 50px;
-       }
+  }
 
-.card {
+.card1 {
     position: relative;
     width: 300px;
     height: 200px;
@@ -201,15 +231,16 @@ button:hover {
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   
-  .card svg {
+  .card1 svg {
     width: 48px;
     fill: #333;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   
-  .card:hover {
+  .card1:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+
   }
   
   .card__content {
@@ -226,7 +257,7 @@ button:hover {
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   
-  .card:hover .card__content {
+  .card1:hover .card__content {
     transform: rotateX(0deg);
   }
   
@@ -237,7 +268,7 @@ button:hover {
     font-weight: 700;
   }
   
-  .card:hover svg {
+  .card1:hover svg {
     scale: 0;
   }
   
@@ -251,6 +282,7 @@ button:hover {
   .b{
     height: 180px;
   }
+
   .c{
     height: 180px;
   }
@@ -263,18 +295,108 @@ button:hover {
     padding-left: 80px;
   
    }
+
  .skill{
     height: 100vh;
    }
+
   .cdk{
     height: 200px;
   }
-  .bck{
+
+.bck{
     height: 200px;
-  }
-  .project{
+}
+
+.project{
     padding-top: 100px;
-  }
-  .heading{
+}
+
+.heading{
     text-align: center;
+}
+
+.card {
+    width: 190px;
+    height: 254px;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all .3s;
+ }
+   
+.card2 {
+    width: 190px;
+    height: 254px;
+    background-color: #1a1a1a;
+    border-radius: 15px;
+    transition: all .2s;
   }
+   
+.card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+
+ }
+   
+.card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+ }
+ 
+ .lak{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+    gap: 220px;
+}
+
+.rtr{
+  display: flex;
+  justify-content: center;
+  gap: 320px;
+} 
+
+ .lkm{
+  height: 255px;
+  width: 190px;
+  border-radius: 15px;
+ }
+
+ .typ{
+  width: 190px;
+  height: 255px;
+ }
+
+ .okl{
+  width: 200px;
+  height: 255px;
+  border-radius: 15px;
+ }
+
+ .tre{
+    text-align: center;
+    padding-bottom: 50px;
+ }
+
+ .rty{
+    
+    width: 100%;
+    height: 100%;
+ }
+
+ .tgh{
+    height: 50px;
+    width: 100%;
+    border-radius: 15px;  
+ }
+
+ .mnb{
+    height: 40px;
+    width: 100%;
+    border-radius: 15px;
+
+ }
+
+ .dkl{
+    width: 100%;
+    border-radius: 15px;
+ }
