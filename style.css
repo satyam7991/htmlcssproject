@@ -404,13 +404,24 @@ button:hover {
  .logo{
     padding: 10px;
       background-color: #900C3F;
-      display: flex;
-      justify-content: center;
-      gap: 60px;
     }
+
     .logo img{
       height: 40px;
       width: 40px;
       
+    }
+
+    .hover{
+        display: flex;
+        justify-content: center;
+         gap: 60px;
+    }
+
+    .hover:hover{
+        transform: scale(0.98);
+        border-radius: 20px;
+        
+    
     }
     
