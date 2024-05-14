@@ -403,8 +403,7 @@ button:hover {
 
  .logo{
     padding: 10px;
-      /* background-color: rgb(76, 75, 74); */
-      color: white;
+      background-color: #900C3F;
       display: flex;
       justify-content: center;
       gap: 60px;
@@ -414,3 +413,4 @@ button:hover {
       width: 40px;
       
     }
+    
