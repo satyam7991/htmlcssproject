@@ -404,6 +404,9 @@ button:hover {
  .logo{
     padding: 10px;
       background-color: #900C3F;
+      display: flex;
+      justify-content: center;
+       gap: 60px;
     }
 
     .logo img{
@@ -412,16 +415,9 @@ button:hover {
       
     }
 
-    .hover{
-        display: flex;
-        justify-content: center;
-         gap: 60px;
-    }
 
     .hover:hover{
-        transform: scale(0.98);
-        border-radius: 20px;
-        
-    
+        transform: scale(0.85);
+        border-radius: 20px;    
     }
     
