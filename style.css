@@ -418,6 +418,5 @@ button:hover {
 
     .hover:hover{
         transform: scale(0.85);
-        border-radius: 20px;    
+        border-radius: 20px;
     }
-    
