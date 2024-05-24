@@ -414,8 +414,6 @@ button:hover {
       width: 40px;
       
     }
-
-
     .hover:hover{
         transform: scale(0.85);
         border-radius: 20px;
