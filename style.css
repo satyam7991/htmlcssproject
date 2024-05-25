@@ -409,9 +409,11 @@ button:hover {
        gap: 60px;
     }
 
+
     .logo img{
       height: 40px;
       width: 40px;
+      
       
     }
     .hover:hover{
