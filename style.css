@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #f3f5f8;
 
@@ -29,6 +31,7 @@ nav {
     position: fixed;
     top:-10px;
     background-color: #f3f5f8;
+    padding: 10px;
     
 
 }
@@ -65,10 +68,11 @@ b {
     text-transform: capitalize;
 }
 
+
 .j:hover{
     background-color: #900C3F;
     border-radius: 25px;
-    padding: 10px;
+    /* padding: 10px; */
     color: white;
 }
 
@@ -113,8 +117,8 @@ b {
 
 h1 {
     display: block;
-    font-size: 4em;
-    font-weight: 900;
+    font-size: 3em;
+    font-weight: 700;
     color: #900C3F;
 }
 
@@ -156,8 +160,9 @@ button {
     margin: 40px 5px;
     letter-spacing: 2px;
     text-transform: capitalize;
-    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.59);
+    box-shadow: 0 15px 10px rgba(61, 58, 58, 0.59);
     border-radius: 10px;
+    transition: all 0.5s;
 }
 
 button:hover {
