@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <title>Portfolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
   <section class="full" id="homelink">
@@ -41,34 +42,34 @@
 </section>
 
 
-<section class="z" id="aboutid">
-    <div class="k">
+<section class="z" id="aboutid" >
+    <div class="k" data-aos="fade-right">
         <img src="img/rollno-39.png.jpeg" alt="">
     </div>
-    <div class="m">
+    <div class="m" data-aos="fade-left">
         <h1 >About Me</h1>
         <h3>Frontend Developer</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime aspernatur ratione, alias temporibus accusantium quae rerum porro earum voluptatibus ex. Illum velit architecto ut totam similique ullam reiciendis quo impedit.</p>
         <div class="hanuman x"><button > Read More</button></div>
     </div>
 </section>
-<div class="skill" id="skilllink">
+<div class="skill" id="skilllink" >
 <h1 class="shubham">MY SKILLS</h1>
+<div class="y" >
 <div class="y">
-<div class="y">
-    <div class="card1">
+    <div class="card1" data-aos="zoom-in-right">
        <img class="b" src="img/web.jpg"> <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
         <div class="card__content">
             <img class="cdk" src="img/WhatsApp Image 2024-05-12 at 16.59.01_e7090292.jpg">
         </div>
       </div>
 
-    <div class="card1">
+    <div class="card1" data-aos="zoom-in-down">
          <img class="c" src="img/android.webp"> <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
         <div class="card__content">
       </div>
     </div>
-    <div class="card1">
+    <div class="card1" data-aos="zoom-in-left">
         <img class="b" src="img/c.png"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
         <div class="card__content">
             <img class="bck" src="img/WhatsApp Image 2024-05-12 at 16.59.01_6573e4f6.jpg">
@@ -82,18 +83,20 @@
 <h1 class="heading">PROJECTS</h1>
 
 <div class="lak">
-    <div class="card">
+    <div class="card"  data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
         <div class="card2">
             <img class="lkm" src="img/unnamed.png">
 
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-aos="fade-down">
         <div class="card2">
             <img class="typ" src="img/calculator-2374442_960_720.webp">
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-aos="zoom-out-left">
         <div class="card2">
             <img class="okl" src="img/image.png">
         </div>
@@ -125,6 +128,11 @@
     <div class="insta"><a href="https://instagram.com/satyamsingh_up_0001?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><img src="img/free-logo-1889515-1597575.webp" alt=""></a></div>
     </div>
 </div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
 <script>
 
     function p1(){

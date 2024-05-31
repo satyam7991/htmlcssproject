@@ -118,7 +118,7 @@ b {
 h1 {
     display: block;
     font-size: 3em;
-    font-weight: 700;
+    font-weight: 800;
     color: #900C3F;
 }
 
@@ -145,6 +145,7 @@ p {
 }
 .hanuman a:hover{
   color: white;
+  transition: all 0.5s;
 }
 
 
