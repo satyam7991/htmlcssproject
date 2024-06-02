@@ -5,21 +5,18 @@
     font-family: 'poppins', sans-serif;
 }
 html{
-    scroll-behavior: smooth;
-    
+    scroll-behavior: smooth;   
 }
 
 body{
     background-color: #f3f5f8;
-
     }
 
 .full {
     width: 100%;
     min-height: 100vh;
     background-color: #f3f5f8;
-    top:0px;
-    
+    top:0px;  
 }
 
 nav {
@@ -32,35 +29,29 @@ nav {
     position: fixed;
     top:-10px;
     background-color: #f3f5f8;
-    padding: 10px;
-    
+    padding: 10px;   
 }
 
 .ghj{
     box-shadow: 0 15px 10px rgba(61, 58, 58, 0.59);
-
 }
 
 .sat {
     display: flex;
     font-size: 40px;
     font-weight: 800;
-    /* color: #900C3F; */
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: purple;
-    
+    color: purple;   
 }
 
 b {
     font-size: 70px;
-    /* color: #900C3F;  */
     color: purple;
 }
 
 .navbar {
     display: flex; 
-
 }
 
 .navbar li {
@@ -76,7 +67,6 @@ b {
     text-decoration: none;
     text-transform: capitalize;
 }
-
 
 .j:hover{
     border-bottom: 2px solid black;
@@ -126,8 +116,6 @@ b {
     color: #3700ff;
     font-size: 2em;
     font-weight: 700;
-
-
 }
 
 h1 {
@@ -136,6 +124,7 @@ h1 {
     font-weight: 800;
     color: purple;
 }
+
 h3{
     color: #3700ff;
 
@@ -162,6 +151,7 @@ p {
     text-decoration: none;
     color: white;
 }
+
 .hanuman a:hover{
   color: purple;
   transition: all 0.5s;
@@ -197,14 +187,12 @@ button:hover {
    border-radius: 200px;
     margin-left: 35%;
     box-shadow: 0 15px 10px rgba(61, 58, 58, 0.59);
-
 } 
 
 .shivam{
     height: 500px;
     width: 400px;
-    object-fit: contain;
-    
+    object-fit: contain;  
 }
 
 .z {
@@ -218,8 +206,6 @@ button:hover {
     justify-content: center;
     display: flex;
     margin-left: 80px;
-   
-
 }
 
 .x {
@@ -230,7 +216,6 @@ button:hover {
     width: 30vw;
     transform: scaleX(-1);
     border-radius: 50%;
-
 }
 
 .m {
@@ -270,7 +255,6 @@ button:hover {
   .card1:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
-
   }
   
   .card__content {
@@ -323,7 +307,6 @@ button:hover {
     text-align: center;
     display: flex;
     padding-left: 80px;
-  
    }
 
  .skill{
@@ -365,7 +348,6 @@ button:hover {
 .card2:hover {
     transform: scale(0.98);
     border-radius: 20px;
-
  }
    
 .card:hover {
@@ -431,7 +413,6 @@ button:hover {
     height: 40px;
     width: 100%;
     border-radius: 15px;
-
  }
 
  .dkl{
@@ -447,12 +428,9 @@ button:hover {
        gap: 60px;
     }
 
-
     .logo img{
       height: 40px;
-      width: 40px;
-      
-
+      width: 40px;  
     }
     .hover:hover{
         transform: scale(0.85);
