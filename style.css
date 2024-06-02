@@ -123,8 +123,10 @@ b {
     position: relative;
     font-size: 25px;
     letter-spacing: 5px;
-    /* color: #900C3F; */
     color: #3700ff;
+    font-size: 2em;
+    font-weight: 700;
+
 
 }
 
